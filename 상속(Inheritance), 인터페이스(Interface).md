@@ -192,6 +192,10 @@ public class ZombieMain {
 4. A instanceof B b 꼴은 타입 검사와 캐스팅된 객체 사용을 동시에 가능. // b라는 객체를 새로 생성하는 것이 아님. 
 5. 인터페이스를 구현하는 클래스는, 오버라이딩 메서드와 다르게 인터페이스의 기능들을 반드시 구현해야한다.
 6. 인터페이스는 public abstract가 묵시적으로 선언돼있다.
+7. 인터페이스는 다중 구현이 가능하다. ex) Zombie implements A, B
+8. 인터페이스도 부모 클래스처럼 자식을 담을 수 있다.
+   - ex) static void example(UnderWaterCharacter underWaterCharacter)
+   - UnderWaterCharacter[] underWaterCharacter = {drowned};
 ---
 
 
