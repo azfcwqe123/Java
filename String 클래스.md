@@ -145,3 +145,121 @@ public class lab {
 
 ---
 
+#### contains()
+
+```java
+public class lab {
+    public static void main(String[] args) {
+
+        String str = "Hello, World!";
+
+        boolean TF = str.contains("World");
+
+        System.out.println(TF);
+    }
+}
+
+```
+
+```
+true
+```
+
+---
+
+#### compareTo()
+
+```java
+public class lab {
+    public static void main(String[] args) {
+
+        String str1 = "apple";
+        String str2 = "bus";
+
+        // 두 문자열을 사전순으로 비교. 첫번째 문자열이 두번째 문자열보다 앞에 있으면 -1, 같으면 0, 뒤에 있으면 1 반환
+        int n = str1.compareTo(str2);
+
+        System.out.println(n);
+    }
+}
+
+```
+
+```
+-1
+```
+
+---
+
+#### replace()
+
+```java
+public class lab {
+    public static void main(String[] args) {
+
+        String str = "Hello, World!";
+
+        String a = str.replace("World", "apple");
+
+        System.out.println(a);
+
+    }
+}
+
+```
+
+```
+Hello, apple!
+```
+
+---
+
+#### trim()
+
+```java
+public class lab {
+    public static void main(String[] args) {
+
+        String str = "    Hello, World!     ";
+
+        String a = str.trim(); // 공백 제거
+
+        System.out.println(a);
+        
+    }
+}
+
+```
+
+```
+Hello, World!
+```
+
+#### split()
+
+```java
+import java.util.Arrays;
+
+public class lab {
+    public static void main(String[] args) {
+
+        String str = "AA, AO, BO, BB, OO, AB";
+
+        String[] arr = str.split(", "); // 문자열을 주어진 정규식을 기준으로 나누고, 배열 반환
+
+        for (String s : arr) {
+            System.out.print(s + " ");
+        }
+
+    }
+}
+
+```
+
+```
+AA AO BO BB OO AB 
+```
+
+---
+
+
