@@ -262,4 +262,56 @@ AA AO BO BB OO AB
 
 ---
 
+#### toUpperCase(), toLowerCase()
+
+```java
+import java.util.Arrays;
+
+public class lab {
+    public static void main(String[] args) {
+
+        String str = "asASFDefdASDwd";
+
+        System.out.println(str.toLowerCase());
+
+        System.out.println(str.toUpperCase());
+        
+    }
+}
+
+```
+
+```
+asasfdefdasdwd
+ASASFDEFDASDWD
+```
+
+---
+
+#### valueOf()
+
+```java
+import java.util.Arrays;
+
+public class lab {
+    public static void main(String[] args) {
+
+        int n = 100;
+        char ch = 'F';
+        boolean TF = true;
+
+        // 기본 데이터 타입을 문자열로 반횐
+        System.out.println(String.valueOf(n));
+        System.out.println(String.valueOf(ch));
+        System.out.println(String.valueOf(TF));
+    }
+}
+
+```
+
+```
+100
+F
+true
+```
 
