@@ -17,7 +17,7 @@ double|Double
 
 ---
 
-### 박싱(Boxing), 언방식(Unboxing)
+### 박싱(Boxing), 언박싱싱(Unboxing)
 
 ```java
 class lab {
